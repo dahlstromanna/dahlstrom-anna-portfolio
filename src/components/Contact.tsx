@@ -21,7 +21,7 @@ const Contact = () => {
         </h2>
         
         <p className="font-body text-xl text-muted-foreground mb-12 max-w-xl mx-auto">
-          Whether you have a project in mind or just want to chat about UX over coffee — 
+          Whether you have a project in mind or just want to chat about UX over a cup of coffee — 
           I'd love to hear from you.
         </p>
 
