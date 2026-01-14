@@ -25,7 +25,7 @@ const Hero = () => {
           transition={{ delay: 0.3, duration: 0.8 }}
           className="font-display text-5xl md:text-7xl lg:text-8xl font-medium text-foreground mb-6 leading-tight"
         >
-          A UX Engineer
+          Anna, a UX Engineer
           <span className="text-primary">.</span>
         </motion.h1>
         
