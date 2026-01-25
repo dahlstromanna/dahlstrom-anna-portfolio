@@ -11,7 +11,7 @@ const Contact = () => {
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={isInView ? { opacity: 1, y: 0 } : {}}
-        transition={{ duration: 0.8 }}
+        transition={{ duration: 1.2, ease: "easeOut" }}
         className="max-w-4xl mx-auto text-center"
       >
         <h2 className="font-display text-4xl md:text-6xl font-medium text-foreground mb-6">
@@ -21,13 +21,13 @@ const Contact = () => {
         </h2>
         
         <p className="font-body text-xl text-muted-foreground mb-12 max-w-xl mx-auto">
-          Whether you have a project in mind or just want to chat about UX over a cup of coffee — 
+          Whether you have a project in mind or just want to chat about UX over a cup of coffee,  
           I'd love to hear from you.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <motion.a
-            href="mailto:hello@example.com"
+            href="mailto:dahlstrom.anna1@gmail.com"
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-primary text-primary-foreground rounded-full font-body font-medium hover:opacity-90 transition-opacity"
@@ -37,7 +37,7 @@ const Contact = () => {
           </motion.a>
           
           <motion.a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/anna-dahlström1"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.02 }}

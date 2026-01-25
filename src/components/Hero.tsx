@@ -25,7 +25,7 @@ const Hero = () => {
           transition={{ delay: 0.3, duration: 0.8 }}
           className="font-display text-5xl md:text-7xl lg:text-8xl font-medium text-foreground mb-6 leading-tight"
         >
-          Anna, a UX Engineer
+          Anna, an UX Engineer
           <span className="text-primary">.</span>
         </motion.h1>
         
@@ -36,7 +36,7 @@ const Hero = () => {
           className="font-body text-xl md:text-2xl text-muted-foreground max-w-2xl leading-relaxed"
         >
           I craft thoughtful digital experiences where design meets strategy. 
-          Bridging the gap between user needs and business goals, one pixel at a time.
+          Bridging the gap between user needs and business goals, one feature at a time.
         </motion.p>
 
         <motion.div

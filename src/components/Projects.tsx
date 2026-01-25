@@ -5,24 +5,24 @@ import { Link } from "react-router-dom";
 
 const projects = [
   {
-    title: "Digital Banking Redesign",
-    slug: "digital-banking-redesign",
-    category: "UX Design • Research",
-    description: "Led the complete redesign of a mobile banking app, improving task completion rates by 40% through iterative user testing.",
+    title: "Daily Operations Tool Redesign",
+    slug: "daily-operations-tool-redesign",
+    category: "UX/UI Design • User Research • Change Management",
+    description: "Led the complete redesign of the core Daily Operations Tool, improving user satisfaction by XX%",
     color: "bg-secondary",
   },
   {
-    title: "Healthcare Portal",
-    slug: "healthcare-portal",
-    category: "Product Strategy • UX",
-    description: "Defined product vision and roadmap for a patient engagement platform, collaborating with clinical teams and developers.",
+    title: "Production Data Visualization",
+    slug: "production-data-visualization",
+    category: "Product Strategy • UX/UI Design",
+    description: "Defined product vision, roadmap and visual expression for a production data visualization platform, collaborating with business owners, data analysts and developers.",
     color: "bg-muted",
   },
   {
-    title: "Enterprise Design System",
-    slug: "enterprise-design-system",
-    category: "Design Systems • Change",
-    description: "Built and rolled out a design system across 12 product teams, reducing design debt and accelerating development cycles.",
+    title: "Digital Asset Management System Implementation",
+    slug: "DAM-system-implementation",
+    category: "Project Management • Change Management • UX Design",
+    description: "Managed the implementation of a new Digital Asset Management system across multiple teams, ensuring smooth adoption and integration with existing workflows.",
     color: "bg-secondary",
   },
 ];
@@ -36,7 +36,7 @@ const Projects = () => {
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={isInView ? { opacity: 1, y: 0 } : {}}
-        transition={{ duration: 0.8 }}
+        transition={{ duration: 1.2, ease: "easeOut" }}
         className="max-w-6xl mx-auto"
       >
         <div className="flex justify-between items-end mb-12">

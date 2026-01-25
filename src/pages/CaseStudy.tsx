@@ -5,44 +5,44 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
 const caseStudies = {
-  "digital-banking-redesign": {
-    title: "Digital Banking Redesign",
-    category: "UX Design • Research",
-    hero: "Led the complete redesign of a mobile banking app, improving task completion rates by 40% through iterative user testing.",
+  "daily-operations-tool-redesign": {
+    title: "Daily Operations Tool Redesign",
+    category: "UX/UI Design • User Research • Change Management",
+    hero: "Led the complete redesign of the core Daily Operations Tool, improving efficiency, user satisfaction and task follow-up through iterative user testing.",
     overview: {
       role: "Lead UX Designer",
-      duration: "6 months",
-      team: "2 designers, 4 developers, 1 PM",
-      tools: "Figma, Maze, Hotjar, Miro",
+      duration: "1.5 Years",
+      team: "1 designer, 2 developers, 1 CI Manager, 1 PM",
+      tools: "Figma, Miro",
     },
-    challenge: "The existing mobile banking app had a 45% drop-off rate during key transactions. Users reported confusion with navigation, and customer support calls were increasing. The business needed a solution that would improve user satisfaction while maintaining security compliance.",
+    challenge: "During the roll-out of a global digital tool handling daily tasks & routines for operators and managers at chemical plants, the user exeprience was deemed too poor to fulfill the business goals of the project. The complexity of the system was high, the UI outdated and the usability so low users avoided using the system in their daily work.",
     approach: [
       {
         phase: "Discovery & Research",
-        description: "Conducted 20+ user interviews and analyzed 6 months of support tickets to identify pain points. Created journey maps and identified 5 critical moments that caused user frustration.",
+        description: "Conducted 20+ user interviews including all global locations(Europe, America, Asia) to identify the most crucial issues and core users. Re-occuring visits/interviews were made with users to ensure foundational problems were identified and to create a solid relation with core users.",
       },
       {
         phase: "Ideation & Testing",
-        description: "Ran 3 design sprints with cross-functional teams. Tested low-fidelity prototypes with 15 users, iterating rapidly based on feedback. Validated navigation patterns through A/B testing.",
+        description: "Ran multiple design sprints with the cross-functional team and the third-party system provider. Tested prototypes with global core users, iterating rapidly based on feedback. Validated navigation patterns through A/B testing.",
       },
       {
         phase: "Design & Iteration",
-        description: "Created a comprehensive design system ensuring consistency across 40+ screens. Implemented progressive disclosure to simplify complex banking tasks while keeping advanced options accessible.",
+        description: "Created a comprehensive design system ensuring consistency across 40+ screens, ensuring suitability for all global locations. Enhanced the user experince for both users and configurators of the system by simplyfing navigation, re-designed fundamental views to reduce information dupliction/overflow and update the UI to ensure a modern look and feel.",
       },
       {
         phase: "Implementation Support",
-        description: "Worked closely with developers during implementation, conducting weekly design reviews. Created detailed handoff documentation and animation specifications.",
+        description: "Created a global network of key users and ensured continuous feedback loops throughout the implementation cycles. Worked closely with developers during implementation, conducting weekly design reviews to ensure technical feasability. Created detailed handoff documentation to developers as well as user-tailored training sessions and material.",
       },
     ],
     outcomes: [
-      { metric: "40%", label: "Improvement in task completion" },
-      { metric: "35%", label: "Reduction in support calls" },
-      { metric: "4.6★", label: "App store rating (up from 3.2)" },
-      { metric: "28%", label: "Increase in daily active users" },
+      { metric: "10", label: "Successfull roll-outs world-wide" },
+      { metric: "XX%", label: "Increase in user satisfaction" },
+      { metric: "XX Msek", label: "in efficiency savings" },
+      { metric: "XX%", label: "Increase in daily active users" },
     ],
-    learnings: "This project reinforced the importance of continuous user involvement throughout the design process. The most impactful improvements came from unexpected insights during prototype testing sessions.",
+    learnings: "This project reinforced the importance of continuous user involvement throughout the design process. The most impactful improvements came from unexpected insights during user research sessions in the user environment.",
   },
-  "healthcare-portal": {
+  "production-data-visualization": {
     title: "Healthcare Portal",
     category: "Product Strategy • UX",
     hero: "Defined product vision and roadmap for a patient engagement platform, collaborating with clinical teams and developers.",
@@ -79,7 +79,7 @@ const caseStudies = {
     ],
     learnings: "Working at the intersection of product and design taught me the value of clear prioritization and transparent communication. Success came from deeply understanding both clinical workflows and patient needs.",
   },
-  "enterprise-design-system": {
+  "DAM-system-implementation": {
     title: "Enterprise Design System",
     category: "Design Systems • Change",
     hero: "Built and rolled out a design system across 12 product teams, reducing design debt and accelerating development cycles.",
@@ -293,7 +293,7 @@ const CaseStudy = () => {
               Interested in discussing this project further?
             </p>
             <Link
-              to="/#contact"
+              to="/contact"
               className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-full font-body font-medium hover:bg-primary/90 transition-colors"
             >
               Get in touch

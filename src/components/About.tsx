@@ -35,7 +35,7 @@ const About = () => {
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={isInView ? { opacity: 1, y: 0 } : {}}
-        transition={{ duration: 0.8 }}
+        transition={{ duration: 1.2, ease: "easeOut" }}
         className="max-w-6xl mx-auto"
       >
         <div className="grid md:grid-cols-2 gap-16 items-start">
@@ -55,7 +55,7 @@ const About = () => {
                 feel effortless and deliver real value.
               </p>
               <p className="text-foreground font-medium">
-                Currently open to roles in UX design, product ownership, and design leadership.
+                Currently open to roles in UX design, product design/ownership, and digital project management.
               </p>
             </div>
           </div>
