@@ -45,11 +45,11 @@ const About = () => {
             </h2>
             <div className="space-y-4 font-body text-muted-foreground leading-relaxed">
               <p>
-                I'm a UX engineer who believes great design is invisible — it just works. 
-                With a background spanning design, research, and project leadership, 
-                I bring a holistic perspective to every challenge.
+                I believe visual design only shines when functionality doesn't steal the spotlight. Great visual design becomes secondary when users are distracted by broken flows, illogical navigation, or misleading layouts. Functionality sets the stage for design to be seen at.
               </p>
               <p>
+                With a background spanning design, research, and project leadership,
+                I bring a holistic perspective to every challenge.
                 Whether I'm facilitating a workshop, sketching user flows, or presenting 
                 to stakeholders, my goal is always the same: create experiences that 
                 feel effortless and deliver real value.

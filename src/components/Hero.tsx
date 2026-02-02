@@ -40,20 +40,22 @@ const Hero = () => {
         </motion.p>
 
         <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.8, duration: 0.6 }}
-          className="flex flex-wrap gap-3 mt-8"
-        >
-          {["UX Design", "User Research", "Product Strategy", "Change Management"].map((skill, i) => (
-            <span
-              key={skill}
-              className="px-4 py-2 bg-secondary text-secondary-foreground rounded-full text-sm font-body font-medium"
-            >
-              {skill}
-            </span>
-          ))}
-        </motion.div>
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ delay: 0.8, duration: 0.6 }}
+  className="mt-8 flex flex-wrap items-center text-m text-muted-foreground text-black"
+>
+  {["UX Design", "User Research", "Product Strategy", "Change Management"].map(
+    (skill, i, arr) => (
+      <span key={skill} className="font-body">
+        {skill}
+        {i < arr.length - 1 && <span className="mx-2">/</span>}
+      </span>
+    )
+  )}
+</motion.div>
+
+
       </motion.div>
 
       <motion.div

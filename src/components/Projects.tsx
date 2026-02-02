@@ -8,7 +8,7 @@ const projects = [
     title: "Daily Operations Tool Redesign",
     slug: "daily-operations-tool-redesign",
     category: "UX/UI Design • User Research • Change Management",
-    description: "Led the complete redesign of the core Daily Operations Tool, improving user satisfaction by XX%",
+    description: "Led the complete redesign of the core Daily Operations Tool, improving user satisfaction by 50%",
     color: "bg-secondary",
   },
   {
