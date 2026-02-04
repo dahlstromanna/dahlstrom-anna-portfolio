@@ -72,7 +72,7 @@ const caseStudies = {
       },
     ],
     outcomes: [
-      { metric: "XXX", label: "Data points handled" },
+      { metric: "3000+", label: "Data connections handled" },
       { metric: "10x", label: "Faster task completion time" },
       { metric: "6 months", label: "From first meeting to full integration in daily work" },
       { metric: "20+ ", label: "planning rounds/day" },
@@ -109,10 +109,10 @@ const caseStudies = {
       },
     ],
     outcomes: [
-      { metric: "60%", label: "Faster design-to-dev handoff" },
+      { metric: "XXX%", label: "Faster design-to-dev handoff" },
       { metric: "XXX%", label: "Time reduction for media producers" },
       { metric: "3", label: "Teams successfully adopted" },
-      { metric: "XXX%", label: "Reduction in design debt" },
+      { metric: "100%", label: "of scope delivered within timeframe and budget" },
     ],
     learnings: "Implementing a successful tool is as much about people as it is processes. The key to successful adoption was not compromise on the users need and involve them from the very start, and continuously improving based on their feedback.",
   },
